@@ -222,13 +222,13 @@ Map.prototype.publishData = function() {
 
 //var austin_map = new Map("austin", "Austin - Downtown", "maps/austin_downtown-clean.osm");
 var austin_map = new Map("austin", "Austin - Downtown", "maps/melbourne-inner.osm");
-var melbourne_map = new Map("melbourne", "Melbourne - Inner", "maps/vegas-clean.osm");
+var melbourne_map = new Map("austin", "Melbourne - Inner", "maps/melbourne-inner-small.osm");
 
 function Vehicle(id, suffix) {
 	this.id = id;
 	this.suffix = suffix;
 	this.name = "Car " + id + suffix;
-	this.map = austin_map;
+	this.map = melbourne_map;
 	this.speed = null;
 	this.state = "normal";
 	this.description = "I am a connected car.";
