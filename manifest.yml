@@ -1,0 +1,9 @@
+applications:
+- host: ay-trafficsim
+  disk: 256M
+  name: ay-trafficsim
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  memory: 256M
+  instances: 1
