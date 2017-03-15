@@ -221,7 +221,7 @@ Map.prototype.publishData = function() {
 }
 
 //var austin_map = new Map("austin", "Austin - Downtown", "maps/austin_downtown-clean.osm");
-var austin_map = new Map("austin", "Austin - Downtown", "maps/melbourne-inner.osm");
+//var austin_map = new Map("austin", "Austin - Downtown", "maps/melbourne-inner.osm");
 var melbourne_map = new Map("austin", "Melbourne - Inner", "maps/melbourne-inner-small.osm");
 
 function Vehicle(id, suffix) {
