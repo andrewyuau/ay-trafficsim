@@ -40,7 +40,7 @@ console.log(iot_server, iot_clientid, iot_username, iot_password);
 var client = mqtt.createClient(1883, iot_server, { clientId: iot_clientid, username: iot_username, password: iot_password });
 
 console.log(JSON.stringify(process.env));
-var VEHICLE_COUNT = (argv.count ? argv.count : (process.env.VEHICLE_COUNT || 30));
+var VEHICLE_COUNT = (argv.count ? argv.count : (process.env.VEHICLE_COUNT || 15));
 var TELEMETRY_RATE = (argv.rate ? argv.rate : (process.env.TELEMETRY_RATE || 2));
 
 console.log("Simulating " + VEHICLE_COUNT + " vehicles");
